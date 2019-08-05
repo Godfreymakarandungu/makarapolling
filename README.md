@@ -1,4 +1,4 @@
-# web-blog
+# web-polling
 
 Getting Started
 This is a website built using django 2.2.3 for practicing  django
