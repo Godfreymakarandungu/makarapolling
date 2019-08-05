@@ -4,7 +4,8 @@ jobs:
   build:
     docker:
       - image: circleci/python:3
-
+    environment:
+      -ANSIBLE_HOST_KEY_CHECKING: False
     # working_directory: ~/repo
 
     steps:
