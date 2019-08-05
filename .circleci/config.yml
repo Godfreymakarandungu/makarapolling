@@ -78,7 +78,7 @@ jobs:
           command: |
              . venv/bin/activate
              pip install ansible
-             ansible-playbook ansible/makarablog.yml -i hosts ansible/hosts --become
+             ansible-playbook ansible/makarablog.yml -i ansible/hosts.ini --become
       # - run:
       #     name: executing ansible to a remote server
       #     command: |
